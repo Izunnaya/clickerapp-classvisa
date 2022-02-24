@@ -5,7 +5,7 @@ import Button from './components/button';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <Button onClick={() => console.log('Click')} />,
+    <Button onClick={() => console.log('Click me')} />,
     document.getElementById('root')
 );
 registerServiceWorker();
