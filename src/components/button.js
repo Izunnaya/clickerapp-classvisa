@@ -8,7 +8,7 @@ import { useState } from 'react';
         <>
         <div>
             <p>{value}</p>            
-            <button className = 'btn' onClick={() => setValue(value + 1)}> CLICK ME! </button>
+            <button className = 'btn' onClick={() => setValue(value + 1)}> HEY CLICK ME! </button>
             </div>
             </>
     );
